@@ -56,7 +56,11 @@ const HomeView: React.FC = () =>
                             <div className="space-y-6">
                                 <div className="flex justify-between items-center">
                                     <h3 className="text-xl font-semibold text-white">Текущие занятия</h3>
-                                    <Button variant="outline" className="cursor-pointer border-0 bg-white/10 text-white transition-colors duration-300">
+                                    <Button 
+                                        variant="outline" 
+                                        onClick={() => setView('Sub')}
+                                        className="cursor-pointer border-0 bg-white/10 text-white transition-colors duration-300"
+                                    >
                                         <Calendar className="w-4 h-4 mr-2" />
                                         Расписание
                                     </Button>
