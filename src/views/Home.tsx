@@ -54,7 +54,7 @@ const HomeView: React.FC = () =>
                             statusItems={statusItems}
                             searchPlaceholder="Поиск кабинета..."
                         />
-
+                        
                         <ScheduleCard
                             title="Текущие занятия"
                             scheduleItems={scheduleItems as any}
