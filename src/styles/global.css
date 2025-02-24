@@ -92,7 +92,6 @@
     --breakpoint-xs: 26rem;
 }
 
-
 @layer base 
 {
     * {@apply border-border outline-ring/50;}
